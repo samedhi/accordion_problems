@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- This file was auto-generated from web/accordion_problems.html. -->
+<html><head><style>template { display: none; }</style>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="../accordion_problems.css">
+    
+    
+  </head>
+  <body>
+    <span>
+      <input type="text" id="search-box" placeholder="Search for anything...">
+      <button id="search-button">Search</button>
+      </span>
+      
+      <!-- Showing that x-collapse without a x-accordion seems to work -->  
+      <template id="__e-6"></template>
+      
+      <!-- Showing that x-collapse with a x-accordion does NOT seem to work -->
+      <!-- UNCOMMENT FOLLOWING SECTION TO SEE THE ERROR -->
+      <!--
+      <x-accordion>
+        <template iterate='fruit in fruits'>
+          <template instantiate="if fruit.toLowerCase().contains(search_term.toLowerCase())">
+            <x-collapse>
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse">{{fruit}}</a>
+              </div>
+              <p>{{fruit}} Value</p>
+            </x-collapse>
+          </template>
+        </template>
+      </x-accordion>
+      -->
+    
+    <script src="../packages/browser/dart.js"></script>
+  
+
+<script type="application/dart" src="accordion_problems.html_bootstrap.dart"></script></body></html>

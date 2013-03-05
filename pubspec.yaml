@@ -1,0 +1,7 @@
+name: accordion_problems
+description: A sample WebUI application
+dependencies:
+  js: any
+  browser: any
+  web_ui: any
+  widget: any

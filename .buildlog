@@ -1,0 +1,178 @@
+---
+build.dart --machine --full
+'package:logging/logging.dart': Error: line 278 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [628 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+'package:logging/logging.dart': Error: line 278 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [692 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+'package:logging/logging.dart': Error: line 278 pos 24: wrong number of type arguments in type 'Comparable'
+class Level implements Comparable<Level> {
+                       ^
+build.dart finished [638 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+Total time                                                   --  21 ms
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  76 ms
+build.dart finished [1977 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+[{"method":"warning","params":{"file":"web/accordion_problems.html","message":"custom element with tag name x-collapse not found.","line":22,"charStart":687,"charEnd":699}}]
+[{"method":"warning","params":{"file":"web/accordion_problems.html","message":"custom element with tag name x-accordion not found.","line":32,"charStart":1032,"charEnd":1045}}]
+[{"method":"warning","params":{"file":"web/accordion_problems.html","message":"custom element with tag name x-collapse not found.","line":35,"charStart":1197,"charEnd":1209}}]
+Total time spent on web/accordion_problems.html              -- 487 ms
+Total time                                                   -- 522 ms
+build.dart finished [1697 ms]
+
+---
+build.dart --machine --changed=web/out/accordion_problems.dart --changed=web/out/accordion_problems.dart.map --...
+Total time                                                   --  25 ms
+build.dart finished [1503 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1274 ms
+Total time                                                   -- 1301 ms
+build.dart finished [2626 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  25 ms
+build.dart finished [1450 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.dart
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1046 ms
+Total time                                                   -- 1072 ms
+build.dart finished [1950 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  32 ms
+build.dart finished [1309 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.dart
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1011 ms
+Total time                                                   -- 1037 ms
+build.dart finished [2089 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  37 ms
+build.dart finished [1489 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1156 ms
+Total time                                                   -- 1197 ms
+build.dart finished [2493 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  28 ms
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --removed=web/xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1281 ms
+Total time                                                   -- 1309 ms
+build.dart finished [2596 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  25 ms
+build.dart finished [1248 ms]
+
+---
+build.dart --machine --removed=web/xclickcounter.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1171 ms
+Total time                                                   -- 1199 ms
+build.dart finished [2065 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  24 ms
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1032 ms
+Total time                                                   -- 1062 ms
+build.dart finished [2222 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  28 ms
+build.dart finished [1420 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1229 ms
+Total time                                                   -- 1266 ms
+build.dart finished [2579 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  42 ms
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1118 ms
+Total time                                                   -- 1158 ms
+build.dart finished [2687 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  66 ms
+build.dart finished [2436 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1231 ms
+Total time                                                   -- 1270 ms
+build.dart finished [2835 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  66 ms
+build.dart finished [1848 ms]
+
+---
+build.dart --machine --changed=web/accordion_problems.html
+[{"method":"mapping","params":{"from":"web/accordion_problems.html","to":"web/out/accordion_problems.html"}}]
+Total time spent on web/accordion_problems.html              -- 1694 ms
+Total time                                                   -- 1732 ms
+build.dart finished [3059 ms]
+
+---
+build.dart --machine --changed=web/out/_from_packages/widget/components/accordion.dart --changed=web/out/_from_...
+Total time                                                   --  21 ms
+build.dart finished [1480 ms]
+
